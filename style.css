@@ -1,0 +1,211 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #1F2937;
+    font-family: "roboto", sans-serif;
+    color: #f9faf8;
+
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    padding: 12px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+.content {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: "roboto", sans-serif;
+}
+
+.content .main-title {
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 48px;
+    margin-bottom: 12px;
+}
+
+.content .left-side .subtext {
+    display: flex;
+    font-size: 18px;
+    color: #E5e7eb;
+    margin-left: 48px;
+
+}
+
+.content .left-side .signup {
+    display: flex;
+    margin-left: 48px;
+    background-color: cadetblue;
+    border-radius: 8px;
+    color: #f9faf8;
+    height: min-content;
+    width: max-content;
+    padding: 8px 16px;
+}
+
+.content .image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374151;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 16px;
+}
+
+.middle-content .information {
+    display: flex;
+    font-family: "roboto", sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "roboto", sans-serif;
+}
+
+.boxes .box-1 {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    margin: 12px;
+    border: 2px solid #374151;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.boxes .box-2 {
+    display: flex;
+    width: 30px;
+    margin: 12px;
+    border: 2px solid #374151;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.boxes .box-3 {
+    display: flex;
+    width: 30px;
+    margin: 12px;
+    border: 2px solid #374151;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.boxes .box-4 {
+    display: flex;
+    width: 30px;
+    margin: 12px;
+    border: 2px solid #374151;
+    padding: 50px;
+    border-radius: 12px;
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+    background-color: #ffff00;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 5s ease, color 5s ease;
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover {
+    background-color: #ffA500;
+    color: #1F2937;
+    cursor: pointer;
+}
+
+.boxes .box-with-text-1 .text-below-box-1, 
+.boxes .box-with-text-2 .text-below-box-2,
+.boxes .box-with-text-3 .text-below-box-3, 
+.boxes .box-with-text-4 .text-below-box-4 {
+    display: flex;
+    width: 160px;
+    padding-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.footer-quote {
+    width: page-size;
+    background-color: #E5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Zapf Chancery", cursive;
+    font-style: italic;
+    font-size: 32px;
+    color: #1F2937;
+    padding: 48px;
+    margin: auto;
+}
+
+.cta-container {
+    background-color: #4285f4;
+    color: white;
+    font-family: "roboto", sans-serif;
+    border-radius: 6px;
+    padding: 30px 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.cta-text h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.cta-text p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.cta-button {
+    padding: 8px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-left: 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: #4285f4;
+}
